@@ -1,0 +1,2079 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChargeBeam EV Charging Solutions | Next-Gen Smart EV Infrastructure</title>
+  <meta name="description"
+    content="ChargeBeam delivers turnkey, ultra-fast, and intelligent EV charging infrastructure for commercial hosts, fleet operators, retail hubs, and highway destinations.">
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- Background Ambient Glows & Grid -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-top-right"></div>
+  <div class="ambient-glow glow-bottom-center"></div>
+  <div class="cyber-grid-overlay"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="ChargeBeam Home">
+        <img src="assets/images/logo.png" alt="ChargeBeam EV Charging Solutions" class="brand-logo-img">
+      </a>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="#solutions" class="nav-link">Pillars</a>
+        <a href="#ecosystem" class="nav-link">Ecosystem</a>
+        <a href="#simulator" class="nav-link highlight-link">
+          <span class="live-dot"></span> Live Demo
+        </a>
+        <a href="#cms-preview" class="nav-link">Cloud CMS</a>
+        <a href="#hardware" class="nav-link">Hardware</a>
+        <a href="#gallery" class="nav-link">Live Gallery</a>
+        <a href="#calculator" class="nav-link">ROI Calculator</a>
+        <a href="#roadmap" class="nav-link">Roadmap</a>
+        <a href="https://wa.me/919595701700?text=Hello%20ChargeBeam%2C%20I%20want%20to%20know%20more%20about%20hosting%20an%20EV%20charging%20station."
+          target="_blank" rel="noopener" class="btn btn-sm btn-whatsapp-header nav-whatsapp-mobile"
+          aria-label="WhatsApp (+91 9595701700)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg> WhatsApp Us (+91 9595701700)
+        </a>
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta-mobile">Host a Station</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="network-badge" title="Live ChargeBeam Network Status">
+          <span class="network-dot pulse"></span>
+          <span class="network-status-text">Network <strong>99.8% Online</strong></span>
+        </div>
+        <a href="https://wa.me/919595701700?text=Hello%20ChargeBeam%2C%20I%20want%20to%20know%20more%20about%20hosting%20an%20EV%20charging%20station."
+          target="_blank" rel="noopener" class="btn btn-sm btn-whatsapp-header nav-whatsapp-desktop"
+          aria-label="WhatsApp (+91 9595701700)" title="Chat on WhatsApp (+91 9595701700)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="#contact" class="btn btn-primary nav-cta">Host a Station</a>
+        <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          <i data-lucide="menu" id="menuIcon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- New Project Announcement with Direct Google Maps Link -->
+        <a href="https://www.google.com/maps/search/?api=1&query=Hotel+Kartik,+Dhule+-+Solapur+Hwy,+Pimpalgaon+Pandhari,+Chhatrapati+Sambhajinagar,+Maharashtra+431121"
+          target="_blank" rel="noopener" class="hero-announcement" title="Open Hotel Kartik on Google Maps">
+          <span class="badge-pill">LIVE PROJECT</span>
+          <span>⚡ Hotel Kartik, Dhule - Solapur Hwy, Pimpalgaon Pandhari, Chhatrapati Sambhajinagar (1.1 kW VoltWise
+            Hub)</span>
+          <i data-lucide="arrow-up-right" style="width:14px;"></i>
+        </a>
+
+        <div class="hero-badge animate-fade-in">
+          <i data-lucide="sparkles" class="badge-icon"></i>
+          <span>Next-Gen High-Speed EV Infrastructure</span>
+        </div>
+
+        <h1 class="hero-title animate-fade-in-up">
+          Powering The Future of <br>
+          <span class="text-gradient-electric">Smart Electric Mobility</span>
+        </h1>
+
+        <p class="hero-subtitle animate-fade-in-up delay-1">
+          ChargeBeam provides complete turnkey AC & DC ultra-fast EV charging hubs for commercial properties, malls,
+          corporate parks, highways, and fleet operators. Zero app barrier, 100% UPI cashless billing, and recurring
+          host revenue.
+        </p>
+
+        <div class="hero-cta-group animate-fade-in-up delay-2">
+          <a href="#simulator" class="btn btn-primary btn-lg">
+            <i data-lucide="play-circle"></i> Try Live Charging Demo
+          </a>
+          <a href="#calculator" class="btn btn-outline btn-lg">
+            <i data-lucide="calculator"></i> Calculate Host Revenue
+          </a>
+        </div>
+
+        <!-- Live Metrics Bar -->
+        <div class="hero-metrics-grid animate-fade-in-up delay-3">
+          <div class="metric-card glass-panel">
+            <div class="metric-icon-box cyan"><i data-lucide="zap"></i></div>
+            <div class="metric-content">
+              <span class="metric-value" data-target="960" data-suffix=" kW">0 kW</span>
+              <span class="metric-label">Max Ultra-Fast DC Power</span>
+            </div>
+          </div>
+
+          <div class="metric-card glass-panel">
+            <div class="metric-icon-box green"><i data-lucide="shield-check"></i></div>
+            <div class="metric-content">
+              <span class="metric-value" data-target="99.8" data-suffix="%">0%</span>
+              <span class="metric-label">Station Uptime Guarantee</span>
+            </div>
+          </div>
+
+          <div class="metric-card glass-panel">
+            <div class="metric-icon-box purple"><i data-lucide="qr-code"></i></div>
+            <div class="metric-content">
+              <span class="metric-value">100%</span>
+              <span class="metric-label">Instant UPI / QR Payments</span>
+            </div>
+          </div>
+
+          <div class="metric-card glass-panel">
+            <div class="metric-icon-box emerald"><i data-lucide="leaf"></i></div>
+            <div class="metric-content">
+              <span class="metric-value" data-target="450" data-suffix=" Tons">0 Tons</span>
+              <span class="metric-label">CO₂ Emissions Displaced</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE VALUE PILLARS (Why ChargeBeam) -->
+    <section class="section-padding solutions-section" id="solutions">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">Engineered for Universal Reliability & Profitability</h2>
+          <p class="section-desc">
+            ChargeBeam eliminates friction across the entire electric vehicle lifecycle—delivering seamless driver
+            convenience and high-yield passive revenue for property hosts.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper cyan">
+              <i data-lucide="shield-alert"></i>
+            </div>
+            <h3 class="pillar-title">Safe, Rugged & Seamless</h3>
+            <p class="pillar-text">
+              Engineered with IP65 weatherproof all-climate enclosures, emergency e-stop protection, overvoltage/leakage
+              arrestors, and 24/7 continuous health telemetry.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> IP65 Dust & Rain Proof</li>
+              <li><i data-lucide="check-circle-2"></i> Multi-layer Surge Protection</li>
+            </ul>
+          </div>
+
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper emerald">
+              <i data-lucide="gauge"></i>
+            </div>
+            <h3 class="pillar-title">Universal AC & DC Fast Charging</h3>
+            <p class="pillar-text">
+              High-power dual-gun configurations supporting everything from 2-wheelers and 3-wheelers to passenger
+              electric cars, commercial taxi fleets, and logistics vans.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> Dual-Gun CCS2 & Type-2</li>
+              <li><i data-lucide="check-circle-2"></i> 10% to 80% charge in 20-30 min</li>
+            </ul>
+          </div>
+
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper purple">
+              <i data-lucide="smartphone"></i>
+            </div>
+            <h3 class="pillar-title">100% Cashless QR & UPI</h3>
+            <p class="pillar-text">
+              Zero mandatory mobile app downloads. Drivers simply scan the on-screen dynamic QR code with any UPI app
+              (GPay, PhonePe, Paytm, BHIM) for instant power activation.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> Instant WhatsApp GST Invoicing</li>
+              <li><i data-lucide="check-circle-2"></i> Real-time payment verification</li>
+            </ul>
+          </div>
+
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper blue">
+              <i data-lucide="cloud"></i>
+            </div>
+            <h3 class="pillar-title">Centralized Cloud CMS</h3>
+            <p class="pillar-text">
+              Live enterprise telemetry, intelligent dynamic power load balancing, remote firmware upgrades, predictive
+              fault detection, and automated host revenue settlements.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> OCPP 1.6J / 2.0.1 Compliant</li>
+              <li><i data-lucide="check-circle-2"></i> Automated Weekly Payouts</li>
+            </ul>
+          </div>
+
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper yellow">
+              <i data-lucide="trending-up"></i>
+            </div>
+            <h3 class="pillar-title">Lucrative Host Revenue Stream</h3>
+            <p class="pillar-text">
+              Monetize unutilized parking bays and commercial land into high-margin recurring energy revenue with
+              customizable per-kWh tariffs and parking integration.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> High footfall customer magnet</li>
+              <li><i data-lucide="check-circle-2"></i> Fully passive recurring income</li>
+            </ul>
+          </div>
+
+          <div class="pillar-card glass-panel hover-lift">
+            <div class="pillar-icon-wrapper pink">
+              <i data-lucide="layers"></i>
+            </div>
+            <h3 class="pillar-title">Scalable Turnkey Expansion</h3>
+            <p class="pillar-text">
+              Begin with a 2-bay charging hub and expand seamlessly into high-density charging plazas with automated
+              grid load balancing as local EV adoption climbs.
+            </p>
+            <ul class="pillar-features">
+              <li><i data-lucide="check-circle-2"></i> Modular plug-and-play scaling</li>
+              <li><i data-lucide="check-circle-2"></i> 24x7 Operations & AMC SLA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 360-DEGREE SMART ECOSYSTEM -->
+    <section class="section-padding ecosystem-section" id="ecosystem">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Unified Platform</span>
+          <h2 class="section-title">Hardware + Software + Cloud + 24x7 Operations</h2>
+          <p class="section-desc">
+            A comprehensive, integrated ecosystem ensuring frictionless operation for property hosts, fleet managers,
+            and EV drivers.
+          </p>
+        </div>
+
+        <div class="ecosystem-layout">
+          <div class="ecosystem-card glass-panel">
+            <div class="ecosystem-header">
+              <div class="ecosystem-badge cyan">Driver Facing</div>
+              <i data-lucide="smartphone" class="ecosystem-icon"></i>
+            </div>
+            <h3>App-Less Driver Experience</h3>
+            <p>Drivers scan the kiosk's dynamic QR code to monitor battery percentage, charging rate, and receive
+              automated WhatsApp & SMS tax invoices without forcing any app install.</p>
+            <div class="ecosystem-pill-group">
+              <span class="eco-pill">Dynamic Web App</span>
+              <span class="eco-pill">UPI Gateway</span>
+              <span class="eco-pill">WhatsApp Invoices</span>
+            </div>
+          </div>
+
+          <div class="ecosystem-card glass-panel highlight-eco-card">
+            <div class="ecosystem-header">
+              <div class="ecosystem-badge emerald">Industrial Grade</div>
+              <i data-lucide="cpu" class="ecosystem-icon"></i>
+            </div>
+            <h3>Heavy-Duty Smart Hardware</h3>
+            <p>Dual-gun AC (7.4kW/22kW) and DC Fast (60kW/120kW) chargers built with IK10 impact protection, IP65
+              weatherproofing, dynamic load allocation, and safety interlocks.</p>
+            <div class="ecosystem-pill-group">
+              <span class="eco-pill">CCS-2 & Type-2</span>
+              <span class="eco-pill">IP65 Weatherproof</span>
+              <span class="eco-pill">Active Surge Defense</span>
+            </div>
+          </div>
+
+          <div class="ecosystem-card glass-panel">
+            <div class="ecosystem-header">
+              <div class="ecosystem-badge purple">Host Control</div>
+              <i data-lucide="layout-dashboard" class="ecosystem-icon"></i>
+            </div>
+            <h3>Host & Cloud CMS Portal</h3>
+            <p>Property hosts access a transparent real-time portal tracking energy dispensed, peak usage hours, live
+              bay occupancy, tariff configuration, and automatic bank remittances.</p>
+            <div class="ecosystem-pill-group">
+              <span class="eco-pill">Live Revenue Audit</span>
+              <span class="eco-pill">Dynamic Tariff Engine</span>
+              <span class="eco-pill">Load Management</span>
+            </div>
+          </div>
+
+          <div class="ecosystem-card glass-panel">
+            <div class="ecosystem-header">
+              <div class="ecosystem-badge blue">Reliability</div>
+              <i data-lucide="headphones" class="ecosystem-icon"></i>
+            </div>
+            <h3>24/7 Remote NOC & SLA Maintenance</h3>
+            <p>Proactive network operations center monitoring every charger 24 hours a day with automated over-the-air
+              bug fixes, preventative maintenance checks, and rapid on-ground response.</p>
+            <div class="ecosystem-pill-group">
+              <span class="eco-pill">OTA Updates</span>
+              <span class="eco-pill">Rapid Field AMC</span>
+              <span class="eco-pill">99.8% SLA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE LIVE CHARGING SIMULATOR (Unique Feature) -->
+    <section class="section-padding simulator-section" id="simulator">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag pulse-tag">Interactive Simulation</span>
+          <h2 class="section-title">Experience The 6-Step ChargeBeam Journey</h2>
+          <p class="section-desc">
+            Test drive our friction-free charging process in real-time. See how seamless and fast charging an EV is with
+            ChargeBeam.
+          </p>
+        </div>
+
+        <div class="simulator-wrapper glass-panel">
+          <!-- Step Navigation Bar -->
+          <div class="sim-steps-nav" id="simStepNav">
+            <button class="sim-step-btn active" data-step="1">
+              <span class="step-num">1</span>
+              <span class="step-title">Park EV</span>
+            </button>
+            <div class="sim-step-line"></div>
+            <button class="sim-step-btn" data-step="2">
+              <span class="step-num">2</span>
+              <span class="step-title">Plug In</span>
+            </button>
+            <div class="sim-step-line"></div>
+            <button class="sim-step-btn" data-step="3">
+              <span class="step-num">3</span>
+              <span class="step-title">Scan UPI QR</span>
+            </button>
+            <div class="sim-step-line"></div>
+            <button class="sim-step-btn" data-step="4">
+              <span class="step-num">4</span>
+              <span class="step-title">Power Flow</span>
+            </button>
+            <div class="sim-step-line"></div>
+            <button class="sim-step-btn" data-step="5">
+              <span class="step-num">5</span>
+              <span class="step-title">Live Telemetry</span>
+            </button>
+            <div class="sim-step-line"></div>
+            <button class="sim-step-btn" data-step="6">
+              <span class="step-num">6</span>
+              <span class="step-title">Instant Invoice</span>
+            </button>
+          </div>
+
+          <!-- Simulator Stage Display -->
+          <div class="sim-stage-content">
+            <!-- Left: Visual Simulation Graphics -->
+            <div class="sim-visual-viewport">
+              <div class="sim-screen-container" id="simScreen">
+                <div class="sim-graphic-box" id="simGraphicBox">
+                  <div class="vehicle-station-graphic">
+                    <div class="charger-kiosk-mock" id="simKiosk">
+                      <div class="kiosk-screen-glow">
+                        <span class="kiosk-status-badge online" id="kioskScreenStatus">STANDBY</span>
+                        <div class="kiosk-brand">CHARGEBEAM 60kW DC</div>
+                        <div class="kiosk-mini-qr" id="kioskMiniQr">
+                          <i data-lucide="qr-code"></i>
+                        </div>
+                      </div>
+                      <div class="kiosk-gun-holder">
+                        <div class="charging-gun-mock" id="simGun">
+                          <div class="gun-handle"></div>
+                          <div class="gun-nozzle"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="ev-car-mock" id="simCar">
+                      <div class="car-body">
+                        <div class="car-roof"></div>
+                        <div class="car-window"></div>
+                        <div class="car-wheel wheel-front"></div>
+                        <div class="car-wheel wheel-back"></div>
+                        <div class="car-charge-port" id="carPort">
+                          <span class="port-ring"></span>
+                        </div>
+                        <div class="car-battery-badge" id="carBatteryBadge">
+                          <i data-lucide="battery"></i> <span id="carBatteryVal">24%</span>
+                        </div>
+                      </div>
+                      <div class="power-cable" id="simCable"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Live Energy Wave Effect (Active in step 4 & 5) -->
+                <div class="energy-flow-particles" id="energyParticles"></div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Control & Explanation Card -->
+            <div class="sim-control-panel">
+              <div class="sim-step-badge" id="simCurrentStepBadge">STEP 1 OF 6</div>
+              <h3 class="sim-step-heading" id="simStepHeading">Park Securely in Designated EV Bay</h3>
+              <p class="sim-step-desc" id="simStepDesc">
+                Drive into the spacious, brightly illuminated ChargeBeam EV charging bay equipped with high-visibility
+                ground markings and safety bollards.
+              </p>
+
+              <!-- Dynamic Interactive Control Elements -->
+              <div class="sim-interactive-elements" id="simInteractiveArea">
+                <!-- Injected dynamically via JS depending on step -->
+              </div>
+
+              <!-- Simulator Navigation Controls -->
+              <div class="sim-actions-footer">
+                <button class="btn btn-outline btn-sm" id="simPrevBtn" disabled>
+                  <i data-lucide="arrow-left"></i> Previous
+                </button>
+                <button class="btn btn-primary btn-sm" id="simNextBtn">
+                  Next Step <i data-lucide="arrow-right"></i>
+                </button>
+                <button class="btn btn-secondary btn-sm" id="simAutoPlayBtn">
+                  <i data-lucide="play"></i> Auto Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOUD CMS & LIVE TELEMETRY DASHBOARD PREVIEW -->
+    <section class="section-padding cms-section" id="cms-preview">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Intelligent Cloud Platform</span>
+          <h2 class="section-title">ChargeBeam Cloud CMS & Remote Fleet Control</h2>
+          <p class="section-desc">
+            Real-time power analytics, live hub health telemetry, automated load management, and instant host revenue
+            distribution.
+          </p>
+        </div>
+
+        <!-- Interactive CMS Mock Dashboard -->
+        <div class="cms-dashboard-mock glass-panel">
+          <!-- CMS Header Bar -->
+          <div class="cms-mock-topbar">
+            <div class="cms-topbar-left">
+              <span class="cms-logo-pill"><i data-lucide="activity"></i> ChargeBeam Cloud CMS v4.2</span>
+              <span class="cms-hub-select">Hub #042 - Tech Valley Commercial Plaza</span>
+            </div>
+            <div class="cms-topbar-right">
+              <span class="cms-live-sync"><span class="pulse-dot"></span> Live Sync Active</span>
+              <button class="cms-action-btn" id="cmsRefreshBtn" title="Simulate Telemetry Refresh">
+                <i data-lucide="rotate-cw"></i> Refresh
+              </button>
+            </div>
+          </div>
+
+          <!-- CMS Main Body Grid -->
+          <div class="cms-mock-grid">
+            <!-- Left Column: Live Station Bays -->
+            <div class="cms-card cms-bays-card">
+              <div class="cms-card-header">
+                <h4><i data-lucide="cpu"></i> Active Charging Guns</h4>
+                <span class="badge-tag">2 / 2 Online</span>
+              </div>
+              <div class="cms-bay-list">
+                <div class="cms-bay-item active-bay" id="bay1">
+                  <div class="bay-item-header">
+                    <span class="bay-id">Bay 01 - DC Fast (CCS-2)</span>
+                    <span class="bay-state in-use">IN USE (CHARGING)</span>
+                  </div>
+                  <div class="bay-progress-bar">
+                    <div class="bay-progress-fill" style="width: 74%;"></div>
+                  </div>
+                  <div class="bay-telemetry-row">
+                    <span>Power: <strong>58.4 kW</strong></span>
+                    <span>Energy: <strong>32.8 kWh</strong></span>
+                    <span>SoC: <strong>74%</strong></span>
+                    <span>Elapsed: <strong>24m 12s</strong></span>
+                  </div>
+                </div>
+
+                <div class="cms-bay-item idle-bay" id="bay2">
+                  <div class="bay-item-header">
+                    <span class="bay-id">Bay 02 - AC Smart (Type-2)</span>
+                    <span class="bay-state available" id="bay2State">AVAILABLE (STANDBY)</span>
+                  </div>
+                  <div class="bay-progress-bar">
+                    <div class="bay-progress-fill idle" id="bay2Fill" style="width: 0%;"></div>
+                  </div>
+                  <div class="bay-telemetry-row" id="bay2Telemetry">
+                    <span>Power: <strong>0.0 kW</strong></span>
+                    <span>Ready for Vehicle Plug-In</span>
+                    <span>Tariff: <strong>₹16.50/kWh</strong></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Middle Column: Live Power Load & Telemetry -->
+            <div class="cms-card cms-telemetry-card">
+              <div class="cms-card-header">
+                <h4><i data-lucide="gauge"></i> Power Demand & Grid Balancing</h4>
+                <span class="telemetry-reading" id="cmsTotalPower">58.4 / 120 kW</span>
+              </div>
+
+              <div class="load-gauge-container">
+                <div class="load-meter-bar">
+                  <div class="load-meter-fill" id="cmsLoadMeter" style="width: 48.6%;"></div>
+                </div>
+                <div class="load-meter-labels">
+                  <span>0 kW</span>
+                  <span>Grid Limit: 120 kW</span>
+                </div>
+              </div>
+
+              <div class="cms-metrics-mini-grid">
+                <div class="mini-stat-card">
+                  <span class="mini-stat-lbl">Today's Dispensed</span>
+                  <span class="mini-stat-val" id="cmsTodayEnergy">384.2 kWh</span>
+                </div>
+                <div class="mini-stat-card">
+                  <span class="mini-stat-lbl">Host Gross Earnings</span>
+                  <span class="mini-stat-val text-cyan" id="cmsTodayRevenue">₹6,339.30</span>
+                </div>
+                <div class="mini-stat-card">
+                  <span class="mini-stat-lbl">Sessions Completed</span>
+                  <span class="mini-stat-val" id="cmsSessionCount">18 Vehicles</span>
+                </div>
+                <div class="mini-stat-card">
+                  <span class="mini-stat-lbl">Peak Efficiency</span>
+                  <span class="mini-stat-val text-green">98.6%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Host Controls & Recent Transactions -->
+            <div class="cms-card cms-log-card">
+              <div class="cms-card-header">
+                <h4><i data-lucide="list-ordered"></i> Live Activity Feed</h4>
+                <span class="status-pill-green">Real-time</span>
+              </div>
+              <div class="cms-feed-list" id="cmsFeedList">
+                <div class="feed-item">
+                  <span class="feed-time">Just now</span>
+                  <div class="feed-info">
+                    <span class="feed-title">Bay 01: Reached 74% battery SoC</span>
+                    <span class="feed-sub">Power dynamically adjusted to 58.4 kW</span>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <span class="feed-time">14m ago</span>
+                  <div class="feed-info">
+                    <span class="feed-title">UPI QR Payment Success (₹480.00)</span>
+                    <span class="feed-sub">PhonePe Ref: CB-TXN-98421</span>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <span class="feed-time">32m ago</span>
+                  <div class="feed-info">
+                    <span class="feed-title">Session Complete: Tata Nexon EV</span>
+                    <span class="feed-sub">Delivered 26.4 kWh · WhatsApp Invoice Sent</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Remote Action Controls -->
+              <div class="cms-controls-action-bar">
+                <button class="cms-ctrl-btn" id="cmsSimulatePlug">
+                  <i data-lucide="plug"></i> Simulate Bay 2 Session
+                </button>
+                <button class="cms-ctrl-btn" id="cmsResetDemo">
+                  <i data-lucide="refresh-ccw"></i> Reset Mock
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HARDWARE & COMPLETE PRODUCT PORTFOLIO -->
+    <section class="section-padding hardware-section" id="hardware">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Product Catalog</span>
+          <h2 class="section-title">Our Products (1.1 kW to 960 kW)</h2>
+          <p class="section-desc">
+            All-weather AC destination and ultra-fast DC chargers for 2W, 3W, 4W cars, commercial fleets, and megawatt
+            highway stations.
+          </p>
+        </div>
+
+        <!-- Target Application Use-Cases Bar -->
+        <div class="product-segments-strip glass-panel">
+          <span class="segments-label"><i data-lucide="building-2"></i> Deployment Sectors:</span>
+          <div class="segments-tags-row">
+            <span class="segment-tag"><i data-lucide="fuel"></i> Charging Stations</span>
+            <span class="segment-tag"><i data-lucide="briefcase"></i> Business Parks</span>
+            <span class="segment-tag"><i data-lucide="graduation-cap"></i> Educational Institutes</span>
+            <span class="segment-tag"><i data-lucide="home"></i> Residential Societies</span>
+            <span class="segment-tag"><i data-lucide="hotel"></i> Hotels & Resorts</span>
+            <span class="segment-tag"><i data-lucide="shopping-bag"></i> Malls & Retail</span>
+            <span class="segment-tag"><i data-lucide="truck"></i> Commercial Fleets</span>
+            <span class="segment-tag"><i data-lucide="navigation"></i> National Highways</span>
+          </div>
+        </div>
+
+        <!-- Product Catalog Filter Controls -->
+        <div class="product-filter-bar">
+          <button class="prod-filter-btn active" data-filter="all">
+            <i data-lucide="layout-grid"></i> All Products
+          </button>
+          <button class="prod-filter-btn" data-filter="ac">
+            <i data-lucide="battery-charging"></i> AC Chargers (1.1 kW – 22 kW)
+          </button>
+          <button class="prod-filter-btn" data-filter="dc">
+            <i data-lucide="zap"></i> DC Fast Chargers (30 kW – 960 kW)
+          </button>
+        </div>
+
+        <!-- 10-Product Master Catalog Grid -->
+        <div class="product-catalog-grid" id="productCatalogGrid">
+
+          <!-- 1. VoltWise 1.1 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">AC Charger</span>
+              <span class="prod-power-badge">1.1 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="plug"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">VoltWise 1.1</h3>
+              <div class="prod-gun-spec"><i data-lucide="layers"></i> <strong>3 Sockets</strong> (1.1 kW)</div>
+              <p class="prod-desc">Multi-socket smart AC solution designed for simultaneous low-power top-ups in housing
+                societies and two-wheeler lots.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge" title="2-Wheelers"><i data-lucide="bike"></i> 2W</span>
+                <span class="v-badge" title="3-Wheelers"><i data-lucide="truck"></i> 3W</span>
+                <span class="v-badge" title="4-Wheelers"><i data-lucide="car"></i> 4W</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Residential, Business Parks, Institutes</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20VoltWise%201.1kW%20AC%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 2. PowerRobin 3.3 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">AC Charger</span>
+              <span class="prod-power-badge">3.3 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="battery-charging"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">PowerRobin 3.3</h3>
+              <div class="prod-gun-spec"><i data-lucide="layers"></i> <strong>1 Socket</strong> (3.3 kW)</div>
+              <p class="prod-desc">Rugged single-socket AC unit with smart RFID and dynamic QR authentication, optimized
+                for hotels and workplace parking.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="bike"></i> 2W</span>
+                <span class="v-badge"><i data-lucide="truck"></i> 3W</span>
+                <span class="v-badge"><i data-lucide="car"></i> 4W</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Hotels, Societies, Shopping Centers</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20PowerRobin%203.3kW%20AC%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 3. Raven 3.3 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">AC Charger</span>
+              <span class="prod-power-badge">3.3 – 7.4 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="zap"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">Raven 3.3</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>1 Gun</strong> (3.3 kW / 7.4 kW)</div>
+              <p class="prod-desc">Sleek compact wallbox with integrated cable management. Available in 3.3 kW and 7.4
+                kW variants for homes and private bays.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="bike"></i> 2W</span>
+                <span class="v-badge"><i data-lucide="truck"></i> 3W</span>
+                <span class="v-badge"><i data-lucide="car"></i> 4W</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Residential, Resorts, Workplace Bays</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20Raven%203.3%2F7.4kW%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 4. Eagle 7.4 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">AC Charger</span>
+              <span class="prod-power-badge">7.4 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="shield-check"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">Eagle 7.4</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>1 Gun</strong> Type-2 (7.4 kW)</div>
+              <p class="prod-desc">Heavy-duty commercial single-gun AC charging station. Premium weatherproof build
+                engineered for malls and high-rise hubs.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> 4W Cars</span>
+                <span class="v-badge"><i data-lucide="truck"></i> Fleet Vans</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Business Parks, Retail Malls, Hotels</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20Eagle%207.4kW%20AC%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 5. Falcon 11/22 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">Fast AC Charger</span>
+              <span class="prod-power-badge">11 / 22 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="gauge"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">Falcon 11/22</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>1 Gun</strong> (11 kW / 22 kW 3-Phase)
+              </div>
+              <p class="prod-desc">High-speed 3-phase AC destination station delivering rapid turnaround for modern EV
+                cars with up to 22 kW AC on-board chargers.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> 4W Cars</span>
+                <span class="v-badge"><i data-lucide="truck"></i> Commercial Fleets</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Malls, Hospitality, Corporate IT Hubs</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20Falcon%2011%2F22kW%20Fast%20AC%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 6. DualEagle 7.4 -->
+          <div class="product-card glass-panel hover-lift" data-type="ac">
+            <div class="prod-header">
+              <span class="prod-type-pill ac">Dual AC Charger</span>
+              <span class="prod-power-badge">2x 7.4 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle ac"><i data-lucide="columns-2"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">DualEagle 7.4</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>2 Guns</strong> Type-2 (7.4 kW each)</div>
+              <p class="prod-desc">Simultaneous dual-vehicle AC charging station with independent smart metering and
+                load balancing for high-density parking.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> 4W Cars</span>
+                <span class="v-badge"><i data-lucide="car"></i> Dual Fleet</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Charging Stations, Malls, Tech Parks</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20DualEagle%207.4kW%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 7. EcoPelican 30 -->
+          <div class="product-card glass-panel hover-lift" data-type="dc">
+            <div class="prod-header">
+              <span class="prod-type-pill dc">DC Fast Charger</span>
+              <span class="prod-power-badge dc">30 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle dc"><i data-lucide="power"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">EcoPelican 30</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>1 Gun</strong> CCS-2 (30 kW DC)</div>
+              <p class="prod-desc">Compact commercial DC fast station with integrated dynamic UPI payment screen.
+                Perfect for commercial taxi fleets and dealerships.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> 4W Taxis</span>
+                <span class="v-badge"><i data-lucide="truck"></i> Fleet Vans</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Commercial Depots, Malls, Institutes</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20EcoPelican%2030kW%20DC%20Fast%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 9. FlameCharge 120 -->
+          <div class="product-card glass-panel hover-lift" data-type="dc">
+            <div class="prod-header">
+              <span class="prod-type-pill dc">Commercial DC Fast</span>
+              <span class="prod-power-badge dc">60 kW – 400 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle dc"><i data-lucide="gauge"></i></div>
+            </div>
+            <div class="prod-body">
+              <h3 class="prod-name">FlameCharge 120</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>2 Guns</strong> CCS-2 (120 kW Peak)</div>
+              <p class="prod-desc">Flagship commercial dual-gun DC fast charging kiosk. Available in ratings:
+                <strong>60kW, 120kW, 180kW, 240kW, 320kW, 360kW & 400kW</strong>.
+              </p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> 4W Cars</span>
+                <span class="v-badge"><i data-lucide="truck"></i> Fleet Vans</span>
+                <span class="v-badge"><i data-lucide="bus"></i> E-Buses</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Highway Plazas, Shopping Malls, Hubs</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20FlameCharge%20120kW%2F240kW%2F400kW%20DC%20Fast%20Charger."
+                target="_blank" rel="noopener" class="btn btn-outline btn-sm btn-block">Inquire Spec Sheet</a>
+            </div>
+          </div>
+
+          <!-- 10. SkyKite 360 / 960 (FLAGSHIP MEGAWATT) -->
+          <div class="product-card glass-panel hover-lift highlight-flagship" data-type="dc">
+            <div class="prod-header">
+              <span class="prod-type-pill megawatt">⚡ Megawatt Ultra-Fast</span>
+              <span class="prod-power-badge megawatt">Max 960 kW</span>
+            </div>
+            <div class="prod-visual">
+              <div class="prod-icon-circle megawatt"><i data-lucide="zap"></i></div>
+            </div>
+            <div class="prod-body">
+              <div class="flagship-top-tag">Top-of-the-Line Flagship</div>
+              <h3 class="prod-name">SkyKite 360 / 960 kW</h3>
+              <div class="prod-gun-spec"><i data-lucide="cable"></i> <strong>2 Guns</strong> Liquid-Cooled (Up to 960
+                kW)</div>
+              <p class="prod-desc">Ultra-fast megawatt-class charging system with dynamic matrix sharing. Available
+                ratings: <strong>240kW, 360kW, 480kW, 720kW, 960kW</strong>.</p>
+              <div class="prod-vehicle-badges">
+                <span class="v-badge"><i data-lucide="car"></i> Passenger Cars</span>
+                <span class="v-badge"><i data-lucide="truck"></i> Heavy Logistics</span>
+                <span class="v-badge"><i data-lucide="bus"></i> Transit E-Buses</span>
+              </div>
+              <div class="prod-locations">
+                <small><i data-lucide="map-pin"></i> Highway Megawatt Corridors, Mining & Bus Depots</small>
+              </div>
+            </div>
+            <div class="prod-footer">
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20the%20SkyKite%20960kW%20Megawatt%20Ultra-Fast%20Charger."
+                target="_blank" rel="noopener" class="btn btn-primary btn-sm btn-block">Inquire 960kW Spec Sheet</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Official Product Portfolio Poster & Specification Brochure Banner -->
+        <div class="product-brochure-banner glass-panel">
+          <div class="brochure-text-col">
+            <span class="section-tag"><i data-lucide="file-check-2"></i> Official Specification Sheet</span>
+            <h3 class="brochure-title">ChargeBeam Full Product Range & Technical Matrix</h3>
+            <p class="brochure-desc">
+              Explore our complete product lineup featuring all AC (1.1kW–22kW) and DC Fast (30kW–960kW) models with
+              connector types, IP ratings, and intelligent power management.
+            </p>
+            <div class="brochure-actions">
+              <button class="btn btn-primary btn-sm" id="btnViewFullBrochure">
+                <i data-lucide="maximize-2"></i> View Full-Size Product Chart
+              </button>
+              <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20please%20send%20the%20complete%20ChargeBeam%20Product%20Catalog%20and%20Price%20List."
+                target="_blank" rel="noopener" class="btn btn-whatsapp-header btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                </svg>
+                Request Product PDF Catalog
+              </a>
+            </div>
+          </div>
+          <div class="brochure-preview-col">
+            <div class="brochure-thumbnail-card" id="openBrochureModalCard"
+              title="Click to view full product range poster">
+              <img src="assets/images/chargebeam_product_range.jpg" alt="ChargeBeam Complete Product Range Catalog"
+                class="brochure-preview-img">
+              <span class="brochure-zoom-badge"><i data-lucide="maximize-2"></i> Full Size View</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Flagship Engineering Deep Dive Tabs -->
+        <div class="detailed-specs-heading text-center" style="margin-top: 5rem;">
+          <span class="section-tag">Flagship Engineering</span>
+          <h3 class="section-title" style="font-size: 2.2rem;">Detailed Model Specifications</h3>
+        </div>
+
+        <!-- Hardware Switcher Tabs -->
+        <div class="hardware-tabs-nav">
+          <button class="hw-tab-btn active" data-hw="megawatt-960">
+            <i data-lucide="zap"></i> SkyKite 960kW Megawatt DC (Max 960 kW)
+          </button>
+          <button class="hw-tab-btn" data-hw="dc-fast">
+            <i data-lucide="plug-zap"></i> FlameCharge 120kW / 240kW / 400kW DC
+          </button>
+          <button class="hw-tab-btn" data-hw="ac-smart">
+            <i data-lucide="battery-charging"></i> Falcon & Eagle AC Smart Destination
+          </button>
+        </div>
+
+        <!-- Hardware Content Display -->
+        <div class="hardware-display-container">
+          <!-- 960kW Megawatt Ultra-Fast Charger Tab Pane -->
+          <div class="hw-tab-pane active" id="pane-megawatt-960">
+            <div class="hw-grid glass-panel">
+              <div class="hw-info-col">
+                <div class="hw-badge cyan"
+                  style="background: linear-gradient(135deg, rgba(120, 204, 24, 0.25) 0%, rgba(6, 182, 212, 0.25) 100%); border-color: var(--brand-primary);">
+                  ⚡ Megawatt-Class Ultra-Fast Fleet & Highway Corridors
+                </div>
+                <h3 class="hw-model-name">ChargeBeam SkyKite 960kW Ultra-Fast Series (Max 960 kW)</h3>
+                <p class="hw-summary">
+                  Engineered for high-throughput commercial fleet depots, electric bus transit stations, mining
+                  logistics, and national highway megawatt charging corridors. Features modular 40kW/60kW power blocks
+                  delivering ultra-rapid charging up to <strong>960 kW</strong> with dynamic multi-dispenser power
+                  matrix sharing.
+                </p>
+
+                <div class="hw-specs-table">
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="zap"></i> Maximum Power Output</span>
+                    <span class="spec-val highlight-cyan" style="font-weight: 800; font-size: 1rem; color: #78cc18;">960
+                      kW (0.96 Megawatt Peak Capacity)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="sliders"></i> Available Ratings</span>
+                    <span class="spec-val">240 kW, 360 kW, 480 kW, 720 kW & 960 kW Ultra-Fast</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="plug-zap"></i> Connector Output</span>
+                    <span class="spec-val">Liquid-Cooled Dual CCS-2 & MCS Connectors (Up to 600A / 1000V DC)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="clock"></i> Ultra-Fast Speed</span>
+                    <span class="spec-val highlight-cyan">Under 8 - 12 Minutes (10% to 80% SoC)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="layers"></i> Architecture</span>
+                    <span class="spec-val">Modular Power Cabinet + Up to 4 Dual-Gun Satellite Dispensers</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="shield"></i> Protection & Cooling</span>
+                    <span class="spec-val">IP65 All-Weather + Smart Liquid-Cooled Cables & Active Heat
+                      Dissipation</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="share-2"></i> Telemetry & CMS</span>
+                    <span class="spec-val">OCPP 2.0.1 / 1.6J with AI Smart Grid Peak Shaving & Dynamic Balancing</span>
+                  </div>
+                </div>
+
+                <div class="hw-cta-row">
+                  <a href="#contact" class="btn btn-primary btn-sm"><i data-lucide="file-text"></i> Request 960kW Spec
+                    Sheet</a>
+                  <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20want%20to%20know%20more%20about%20the%20SkyKite%20960kW%20Megawatt%20Charger."
+                    target="_blank" rel="noopener" class="btn btn-outline btn-sm"><i data-lucide="message-circle"></i>
+                    Chat on WhatsApp</a>
+                </div>
+              </div>
+
+              <div class="hw-visual-col">
+                <div class="hw-kiosk-render dc-render">
+                  <div class="kiosk-body-3d"
+                    style="border-color: rgba(120, 204, 24, 0.7); box-shadow: 0 0 35px rgba(120, 204, 24, 0.35);">
+                    <div class="kiosk-top-light" style="background: #78cc18; box-shadow: 0 0 20px #78cc18;"></div>
+                    <div class="kiosk-screen-face">
+                      <div class="screen-logo" style="color: #78cc18; font-weight: 900;">SKYKITE 960 kW</div>
+                      <div class="screen-qr-mock"><i data-lucide="qr-code"></i></div>
+                      <div class="screen-kwh-mock" style="color: #06b6d4; font-weight: 800;">MAX 960 kW LIQUID-COOLED
+                      </div>
+                    </div>
+                    <div class="kiosk-guns-duo">
+                      <div class="gun-cradle"><span class="gun-tag"
+                          style="background: #78cc18; color: #000; font-weight: 800;">GUN 1 (600A)</span></div>
+                      <div class="gun-cradle"><span class="gun-tag"
+                          style="background: #78cc18; color: #000; font-weight: 800;">GUN 2 (600A)</span></div>
+                    </div>
+                    <div class="kiosk-base-plate"></div>
+                  </div>
+                  <div class="kiosk-shadow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 60kW - 400kW DC Fast Charger Tab Pane -->
+          <div class="hw-tab-pane" id="pane-dc-fast">
+            <div class="hw-grid glass-panel">
+              <div class="hw-info-col">
+                <div class="hw-badge cyan">Highway & Commercial Mall Plazas</div>
+                <h3 class="hw-model-name">ChargeBeam FlameCharge Series (60kW to 400kW)</h3>
+                <p class="hw-summary">
+                  Designed for commercial shopping plazas, corporate tech campuses, highway dining hubs, and commercial
+                  fleet depots. Available ratings: <strong>60kW, 120kW, 180kW, 240kW, 320kW, 360kW & 400kW</strong>.
+                  Delivers a 10% to 80% charge in just 15 to 30 minutes.
+                </p>
+
+                <div class="hw-specs-table">
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="plug-zap"></i> Connector Output</span>
+                    <span class="spec-val">Dual CCS-2 Fast Charging Guns (Simultaneous Fast Charging)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="sliders"></i> Available Ratings</span>
+                    <span class="spec-val">60kW, 120kW, 180kW, 240kW, 320kW, 360kW & 400kW</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="clock"></i> 10-80% Charge Time</span>
+                    <span class="spec-val highlight-cyan">15 - 30 Minutes (Vehicle dependent)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="shield"></i> Protection Rating</span>
+                    <span class="spec-val">IP65 (Outdoor Weatherproof) & IK10 Impact</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="credit-card"></i> Payment & Auth</span>
+                    <span class="spec-val">Dynamic UPI QR Screen, RFID & App-less Web</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="tv"></i> Display Screen</span>
+                    <span class="spec-val">7-inch High-Brightness Sunlight-Readable Touch</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="share-2"></i> Cloud Protocol</span>
+                    <span class="spec-val">OCPP 1.6J / OCPP 2.0.1 Ready (4G LTE / Wi-Fi / LAN)</span>
+                  </div>
+                </div>
+
+                <div class="hw-cta-row">
+                  <a href="#contact" class="btn btn-primary btn-sm"><i data-lucide="file-text"></i> Request FlameCharge
+                    Spec Sheet</a>
+                  <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20FlameCharge%20DC%20Series."
+                    target="_blank" rel="noopener" class="btn btn-outline btn-sm"><i data-lucide="message-circle"></i>
+                    Chat on WhatsApp</a>
+                </div>
+              </div>
+
+              <div class="hw-visual-col">
+                <div class="hw-kiosk-render dc-render">
+                  <div class="kiosk-body-3d">
+                    <div class="kiosk-top-light"></div>
+                    <div class="kiosk-screen-face">
+                      <div class="screen-logo">FLAMECHARGE 120</div>
+                      <div class="screen-qr-mock"><i data-lucide="qr-code"></i></div>
+                      <div class="screen-kwh-mock">120 kW DUAL CCS-2</div>
+                    </div>
+                    <div class="kiosk-guns-duo">
+                      <div class="gun-cradle"><span class="gun-tag">GUN 1</span></div>
+                      <div class="gun-cradle"><span class="gun-tag">GUN 2</span></div>
+                    </div>
+                    <div class="kiosk-base-plate"></div>
+                  </div>
+                  <div class="kiosk-shadow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AC Smart Charger Tab Pane -->
+          <div class="hw-tab-pane" id="pane-ac-smart">
+            <div class="hw-grid glass-panel">
+              <div class="hw-info-col">
+                <div class="hw-badge emerald">Destination & Overnight Hubs</div>
+                <h3 class="hw-model-name">ChargeBeam Falcon & Eagle AC Series (1.1kW - 22kW)</h3>
+                <p class="hw-summary">
+                  The ideal destination charging solution for residential societies, hotels, corporate office parks,
+                  educational institutes, and 2W/3W commercial parking bays. Includes VoltWise, PowerRobin, Raven,
+                  Eagle, Falcon, and DualEagle.
+                </p>
+
+                <div class="hw-specs-table">
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="plug-zap"></i> Connector Output</span>
+                    <span class="spec-val">Dual Type-2 AC Guns / Universal 16A Sockets</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="sliders"></i> Available Models</span>
+                    <span class="spec-val">VoltWise 1.1, PowerRobin 3.3, Raven 3.3, Eagle 7.4, Falcon 11/22, DualEagle
+                      7.4</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="clock"></i> Target Vehicles</span>
+                    <span class="spec-val highlight-emerald">2W, 3W & Long-Stay Electric Cars</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="shield"></i> Protection Rating</span>
+                    <span class="spec-val">IP65 Weatherproof & Anti-Tamper Security</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="credit-card"></i> Payment & Auth</span>
+                    <span class="spec-val">UPI QR Code, RFID Keycards & Cloud Web Pay</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="cpu"></i> Smart Load</span>
+                    <span class="spec-val">Dynamic Power Balancing with Facility Grid</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-name"><i data-lucide="share-2"></i> Cloud Protocol</span>
+                    <span class="spec-val">OCPP 1.6J (4G IoT SIM + Wi-Fi Connectivity)</span>
+                  </div>
+                </div>
+
+                <div class="hw-cta-row">
+                  <a href="#contact" class="btn btn-primary btn-sm"><i data-lucide="file-text"></i> Request AC Spec
+                    Sheet</a>
+                  <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20am%20interested%20in%20ChargeBeam%20AC%20Chargers."
+                    target="_blank" rel="noopener" class="btn btn-outline btn-sm"><i data-lucide="message-circle"></i>
+                    Chat on WhatsApp</a>
+                </div>
+              </div>
+
+              <div class="hw-visual-col">
+                <div class="hw-kiosk-render ac-render">
+                  <div class="kiosk-body-3d compact">
+                    <div class="kiosk-top-light green"></div>
+                    <div class="kiosk-screen-face">
+                      <div class="screen-logo">FALCON AC-22</div>
+                      <div class="screen-qr-mock"><i data-lucide="qr-code"></i></div>
+                      <div class="screen-kwh-mock">22 kW DUAL TYPE-2</div>
+                    </div>
+                    <div class="kiosk-guns-duo">
+                      <div class="gun-cradle"><span class="gun-tag">GUN A</span></div>
+                      <div class="gun-cradle"><span class="gun-tag">GUN B</span></div>
+                    </div>
+                    <div class="kiosk-base-plate"></div>
+                  </div>
+                  <div class="kiosk-shadow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- LIVE STATION GALLERY & INSTAGRAM SHOWCASE -->
+    <section class="section-padding gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag pulse-tag">Live Network</span>
+          <h2 class="section-title">ChargeBeam Stations in Action</h2>
+          <p class="section-desc">
+            Explore our state-of-the-art charging hubs deployed across premier tech parks, commercial plazas, and
+            highway corridors. Follow our journey on Instagram.
+          </p>
+        </div>
+
+        <!-- 4-Project Showcase Grid with 2-Second Auto-Sliders -->
+        <div class="gallery-grid">
+          <!-- Project 1 (FEATURED): Hotel Kartik EV Charging Hub (1.1 kW Live Running Project) -->
+          <div class="gallery-item-card glass-panel hover-lift featured-card" data-project="kartik">
+            <div class="gallery-slider" data-interval="2000">
+              <div class="gallery-slides">
+                <div class="gallery-slide active">
+                  <img src="assets/images/madha_nagar_panchayat.jpg" alt="ChargeBeam EV Charging Hub at Hotel Kartik"
+                    class="gallery-img">
+                  <span class="slide-caption-tag">1/2: Station Site: Hotel Kartik Highway Bay</span>
+                </div>
+                <div class="gallery-slide">
+                  <img src="assets/images/madha_charger_closeup.jpg"
+                    alt="ChargeBeam 1.1kW AC Smart VoltWise Charger Unit" class="gallery-img">
+                  <span class="slide-caption-tag">2/2: 1.1kW VoltWise AC Smart Charger</span>
+                </div>
+              </div>
+              <div class="slider-dots">
+                <span class="slider-dot active" data-index="0" title="Slide 1"></span>
+                <span class="slider-dot" data-index="1" title="Slide 2"></span>
+              </div>
+              <button class="slider-arrow prev" aria-label="Previous Photo">&#10094;</button>
+              <button class="slider-arrow next" aria-label="Next Photo">&#10095;</button>
+              <span class="gallery-insta-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                @charge.beam
+              </span>
+            </div>
+            <div class="gallery-card-body">
+              <div class="gallery-badge-row">
+                <span class="new-launch-tag"><i data-lucide="sparkles"></i> LIVE RUNNING PROJECT</span>
+                <span class="active-badge"><i data-lucide="check-circle-2"></i> ACTIVE 24x7</span>
+              </div>
+              <div class="gallery-location-tag"><i data-lucide="map-pin"></i> Dhule - Solapur Hwy, Pimpalgaon Pandhari,
+                Chhatrapati Sambhajinagar, MH - 431121
+              </div>
+              <h3 class="gallery-title">Hotel Kartik Smart EV Charging Hub (1.1 kW)</h3>
+              <p class="gallery-desc">
+                Live operational 1.1 kW AC Smart EV charging station at <strong>Hotel Kartik</strong> on the Dhule -
+                Solapur Highway in Pimpalgaon Pandhari, Chhatrapati Sambhajinagar (431121). Features ChargeBeam VoltWise
+                multi-socket charging with instant dynamic UPI QR scan-to-charge for 2-wheelers, 3-wheelers, and
+                electric cars.
+              </p>
+              <div class="gallery-footer-bar">
+                <span class="stat-highlight"><i data-lucide="zap"
+                    style="width:14px; color:var(--brand-primary); display:inline;"></i> 1.1 kW VoltWise Hub</span>
+                <a href="https://maps.google.com/?q=Hotel+Kartik,Dhule+Solapur+Hwy,Pimpalgaon+Pandhari,Chhatrapati+Sambhajinagar,Maharashtra+431121"
+                  target="_blank" rel="noopener" class="insta-link-btn">
+                  <i data-lucide="map-pin"></i> View on Google Maps <i data-lucide="arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Premium Shopping Mall Plaza Hub -->
+          <div class="gallery-item-card glass-panel hover-lift" data-project="mall">
+            <div class="gallery-slider" data-interval="2000">
+              <div class="gallery-slides">
+                <div class="gallery-slide active">
+                  <img src="assets/images/insta_mall.jpg" alt="ChargeBeam 60kW DC Fast Charger at Shopping Mall"
+                    class="gallery-img">
+                  <span class="slide-caption-tag">1/2: Mall Entrance DC Fast Bay</span>
+                </div>
+                <div class="gallery-slide">
+                  <img src="assets/images/hub_showcase.jpg" alt="ChargeBeam Dual-Gun High Power DC Fast Kiosk"
+                    class="gallery-img">
+                  <span class="slide-caption-tag">2/2: Dual CCS-2 Gun Charger</span>
+                </div>
+              </div>
+              <div class="slider-dots">
+                <span class="slider-dot active" data-index="0" title="Slide 1"></span>
+                <span class="slider-dot" data-index="1" title="Slide 2"></span>
+              </div>
+              <button class="slider-arrow prev" aria-label="Previous Photo">&#10094;</button>
+              <button class="slider-arrow next" aria-label="Next Photo">&#10095;</button>
+              <span class="gallery-insta-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                @charge.beam
+              </span>
+            </div>
+            <div class="gallery-card-body">
+              <div class="gallery-location-tag"><i data-lucide="map-pin"></i> Premium Retail Mall Plaza Hub</div>
+              <h3 class="gallery-title">Shopping Mall & Retail Fast Hub</h3>
+              <p class="gallery-desc">
+                High-turnover dual-gun DC fast charging station deployed at mall entrance with dynamic green LED
+                lighting, illuminated safety canopies, and instant scan-to-charge for shoppers.
+              </p>
+              <div class="gallery-footer-bar">
+                <span><i data-lucide="heart" style="width:13px; color:#e1306c; display:inline;"></i> 1,420 Likes</span>
+                <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+                  class="insta-link-btn">
+                  View on Instagram <i data-lucide="arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Dedicated EV Fleet & Logistics Depot -->
+          <div class="gallery-item-card glass-panel hover-lift" data-project="fleet">
+            <div class="gallery-slider" data-interval="2000">
+              <div class="gallery-slides">
+                <div class="gallery-slide active">
+                  <img src="assets/images/insta_fleet.jpg" alt="ChargeBeam Dedicated Commercial EV Fleet Depot"
+                    class="gallery-img">
+                  <span class="slide-caption-tag">1/2: Commercial Logistics Bay</span>
+                </div>
+                <div class="gallery-slide">
+                  <img src="assets/images/canopy_station.jpg" alt="Canopy Fast Charging Terminal" class="gallery-img">
+                  <span class="slide-caption-tag">2/2: All-Weather Canopy Terminal</span>
+                </div>
+              </div>
+              <div class="slider-dots">
+                <span class="slider-dot active" data-index="0" title="Slide 1"></span>
+                <span class="slider-dot" data-index="1" title="Slide 2"></span>
+              </div>
+              <button class="slider-arrow prev" aria-label="Previous Photo">&#10094;</button>
+              <button class="slider-arrow next" aria-label="Next Photo">&#10095;</button>
+              <span class="gallery-insta-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                @charge.beam
+              </span>
+            </div>
+            <div class="gallery-card-body">
+              <div class="gallery-location-tag"><i data-lucide="truck"></i> Commercial Logistics Hub</div>
+              <h3 class="gallery-title">Dedicated EV Fleet & Depot Station</h3>
+              <p class="gallery-desc">
+                High-capacity overnight & DC fast charging depot powering commercial electric delivery vans, logistics
+                fleets, and ride-hail cabs with smart automated load management.
+              </p>
+              <div class="gallery-footer-bar">
+                <span><i data-lucide="heart" style="width:13px; color:#e1306c; display:inline;"></i> 984 Likes</span>
+                <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+                  class="insta-link-btn">
+                  View on Instagram <i data-lucide="arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Highway Corridor & Dynamic UPI Hub -->
+          <div class="gallery-item-card glass-panel hover-lift" data-project="highway">
+            <div class="gallery-slider" data-interval="2000">
+              <div class="gallery-slides">
+                <div class="gallery-slide active">
+                  <img src="assets/images/highway_plaza.jpg" alt="Expressway Fast Charging Plaza" class="gallery-img">
+                  <span class="slide-caption-tag">1/2: Highway Corridor Plaza</span>
+                </div>
+                <div class="gallery-slide">
+                  <img src="assets/images/kiosk_qr_scan.jpg" alt="Instant 100% Cashless UPI QR Code Payment"
+                    class="gallery-img">
+                  <span class="slide-caption-tag">2/2: Scan-to-Charge Dynamic UPI</span>
+                </div>
+              </div>
+              <div class="slider-dots">
+                <span class="slider-dot active" data-index="0" title="Slide 1"></span>
+                <span class="slider-dot" data-index="1" title="Slide 2"></span>
+              </div>
+              <button class="slider-arrow prev" aria-label="Previous Photo">&#10094;</button>
+              <button class="slider-arrow next" aria-label="Next Photo">&#10095;</button>
+              <span class="gallery-insta-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                @charge.beam
+              </span>
+            </div>
+            <div class="gallery-card-body">
+              <div class="gallery-location-tag"><i data-lucide="navigation"></i> National Highway Corridor</div>
+              <h3 class="gallery-title">Expressway Fast Charging Hub</h3>
+              <p class="gallery-desc">
+                24x7 highway destination fast charging hub with high-power CCS-2 dual guns, enabling rapid 0-80% top-ups
+                and seamless Google Pay/PhonePe/Paytm QR checkout.
+              </p>
+              <div class="gallery-footer-bar">
+                <span><i data-lucide="heart" style="width:13px; color:#e1306c; display:inline;"></i> 2,150 Likes</span>
+                <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+                  class="insta-link-btn">
+                  View on Instagram <i data-lucide="arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram Banner Call-to-Action -->
+        <div class="insta-banner-cta glass-panel">
+          <div class="insta-banner-left">
+            <div class="insta-icon-large">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="insta-banner-text">
+              <h3>Follow @charge.beam on Instagram</h3>
+              <p>Stay updated with our newest hub inaugurations, EV technology breakthroughs, and partner stories.</p>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+            class="btn btn-instagram btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg> Follow @charge.beam
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE HOST REVENUE & SAVINGS CALCULATOR -->
+    <section class="section-padding calculator-section" id="calculator">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">High-Yield Returns</span>
+          <h2 class="section-title">Host Revenue & Driver Savings Calculator</h2>
+          <p class="section-desc">
+            Estimate your recurring passive monthly and annual returns by hosting ChargeBeam fast charging stations on
+            your property.
+          </p>
+        </div>
+
+        <div class="calc-container glass-panel">
+          <!-- Left: Dynamic Controls -->
+          <div class="calc-controls-col">
+            <h3 class="calc-panel-title"><i data-lucide="sliders"></i> Station Parameters</h3>
+
+            <div class="calc-input-group">
+              <div class="calc-input-header">
+                <label for="stationCount">Number of Dual-Gun Chargers</label>
+                <span class="calc-value-display" id="dispStationCount">2 Stations (4 Guns)</span>
+              </div>
+              <input type="range" id="stationCount" min="1" max="10" value="2" step="1" class="custom-slider">
+              <div class="slider-marks">
+                <span>1 Hub</span>
+                <span>5 Hubs</span>
+                <span>10 Hubs</span>
+              </div>
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-input-header">
+                <label>Charger Configuration</label>
+              </div>
+              <div class="radio-toggle-group">
+                <label class="radio-pill active" id="pillDc">
+                  <input type="radio" name="calcChargerType" value="dc" checked>
+                  <span>DC Fast (60kW)</span>
+                </label>
+                <label class="radio-pill" id="pillAc">
+                  <input type="radio" name="calcChargerType" value="ac">
+                  <span>AC Destination (22kW)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-input-header">
+                <label for="sessionsPerGun">Daily Charging Sessions (per gun)</label>
+                <span class="calc-value-display" id="dispSessions">8 Sessions / day</span>
+              </div>
+              <input type="range" id="sessionsPerGun" min="2" max="24" value="8" step="1" class="custom-slider">
+              <div class="slider-marks">
+                <span>2 (Low)</span>
+                <span>12 (Average)</span>
+                <span>24 (Peak)</span>
+              </div>
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-input-header">
+                <label for="hostMargin">Host Margin per kWh</label>
+                <span class="calc-value-display" id="dispMargin">₹4.50 / kWh</span>
+              </div>
+              <input type="range" id="hostMargin" min="2.0" max="8.0" value="4.50" step="0.5" class="custom-slider">
+              <div class="slider-marks">
+                <span>₹2.00</span>
+                <span>₹5.00</span>
+                <span>₹8.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Calculated Results & Financial Summary -->
+          <div class="calc-results-col">
+            <h3 class="calc-panel-title"><i data-lucide="wallet"></i> Estimated Host Returns</h3>
+
+            <div class="calc-highlight-box">
+              <span class="calc-hl-label">Estimated Monthly Passive Revenue</span>
+              <span class="calc-hl-number text-gradient-electric" id="resMonthlyIncome">₹86,400</span>
+              <span class="calc-hl-sub">Net payout deposited directly to your bank account</span>
+            </div>
+
+            <div class="calc-mini-results-grid">
+              <div class="calc-stat-item">
+                <span class="cstat-label">Annual Gross Income</span>
+                <span class="cstat-val text-cyan" id="resAnnualIncome">₹10,36,800</span>
+              </div>
+              <div class="calc-stat-item">
+                <span class="cstat-label">Monthly Energy Dispensed</span>
+                <span class="cstat-val" id="resMonthlyEnergy">19,200 kWh</span>
+              </div>
+              <div class="calc-stat-item">
+                <span class="cstat-label">Customer Driver Fuel Savings</span>
+                <span class="cstat-val text-green" id="resDriverSavings">₹1,84,000 / mo</span>
+              </div>
+              <div class="calc-stat-item">
+                <span class="cstat-label">Annual CO₂ Offset</span>
+                <span class="cstat-val text-emerald" id="resCo2Offset">184.3 Tonnes</span>
+              </div>
+            </div>
+
+            <div class="calc-cta-box">
+              <a href="#contact" class="btn btn-primary btn-block">
+                <i data-lucide="clipboard-check"></i> Request Free Site Feasibility Survey
+              </a>
+              <span class="calc-disclaimer">*Estimates based on typical tariff surcharges and 30-day operating months.
+                Actual earnings vary by grid tariffs and location footfall.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4-PHASE TURNKEY IMPLEMENTATION ROADMAP -->
+    <section class="section-padding roadmap-section" id="roadmap">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Seamless Deployment</span>
+          <h2 class="section-title">4-Phase Turnkey Execution Roadmap</h2>
+          <p class="section-desc">
+            From initial site power audit to public launch and continuous 24/7 revenue generation—ChargeBeam manages
+            every detail.
+          </p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-card glass-panel">
+            <div class="rm-phase-badge">PHASE 01</div>
+            <div class="rm-icon-circle cyan"><i data-lucide="map-pin"></i></div>
+            <h3 class="rm-title">Site Survey & Load Feasibility</h3>
+            <p class="rm-desc">
+              Detailed civil site inspection, parking traffic flow mapping, grid transformer capacity analysis, and
+              customized hub layout design.
+            </p>
+            <div class="rm-tag">Duration: 3-5 Days</div>
+          </div>
+
+          <div class="roadmap-card glass-panel">
+            <div class="rm-phase-badge">PHASE 02</div>
+            <div class="rm-icon-circle emerald"><i data-lucide="cable"></i></div>
+            <h3 class="rm-title">Grid Sanction & Civil Setup</h3>
+            <p class="rm-desc">
+              Dedicated electrical metering sanctions, underground armored cabling, weather canopy construction, and
+              anti-slip safety bay painting.
+            </p>
+            <div class="rm-tag">Duration: 7-10 Days</div>
+          </div>
+
+          <div class="roadmap-card glass-panel">
+            <div class="rm-phase-badge">PHASE 03</div>
+            <div class="rm-icon-circle purple"><i data-lucide="cpu"></i></div>
+            <h3 class="rm-title">Hardware & CMS Commissioning</h3>
+            <p class="rm-desc">
+              Mounting DC/AC fast charger kiosks, integrating Cloud CMS telemetry, UPI QR activation, safety interlock
+              testing, and quality audits.
+            </p>
+            <div class="rm-tag">Duration: 2-3 Days</div>
+          </div>
+
+          <div class="roadmap-card glass-panel">
+            <div class="rm-phase-badge">PHASE 04</div>
+            <div class="rm-icon-circle blue"><i data-lucide="rocket"></i></div>
+            <h3 class="rm-title">Public Launch & 24/7 Operations</h3>
+            <p class="rm-desc">
+              Go-live for EV drivers, station listing on Google Maps and navigation apps, 24x7 NOC monitoring, and
+              automatic monthly revenue payouts.
+            </p>
+            <div class="rm-tag">Continuous 24/7 Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMERCIAL PARTNERSHIP MODELS -->
+    <section class="section-padding partnership-section" id="models">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Flexible Collaboration</span>
+          <h2 class="section-title">Partnership Models Tailored To Your Property</h2>
+          <p class="section-desc">
+            Choose the model that matches your business model—from zero-investment revenue share to full enterprise
+            ownership.
+          </p>
+        </div>
+
+        <div class="models-grid">
+          <div class="model-card glass-panel">
+            <div class="model-top">
+              <span class="model-type">Most Popular</span>
+              <h3 class="model-name">Revenue Share Model</h3>
+              <p class="model-summary">Zero upfront operational hassle. You provide the parking space; ChargeBeam
+                installs, operates, and shares recurring per-kWh revenue.</p>
+            </div>
+            <ul class="model-perks">
+              <li><i data-lucide="check"></i> Zero hardware management stress</li>
+              <li><i data-lucide="check"></i> ChargeBeam handles 24/7 maintenance</li>
+              <li><i data-lucide="check"></i> Attract premium EV driving customers</li>
+              <li><i data-lucide="check"></i> Monthly automated direct bank payouts</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Choose Revenue Share</a>
+          </div>
+
+          <div class="model-card glass-panel highlight-model-card">
+            <div class="model-top">
+              <span class="model-type best-tag">Maximum ROI</span>
+              <h3 class="model-name">Turnkey Enterprise Capex</h3>
+              <p class="model-summary">Purchase hardware and infrastructure directly. Retain 100% of charging margins
+                while ChargeBeam manages the Cloud CMS & 24/7 AMC.</p>
+            </div>
+            <ul class="model-perks">
+              <li><i data-lucide="check"></i> 100% station revenue retention</li>
+              <li><i data-lucide="check"></i> Full brand customization & white-labeling</li>
+              <li><i data-lucide="check"></i> Cloud CMS host dashboard access</li>
+              <li><i data-lucide="check"></i> 3-Year comprehensive hardware AMC</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">Choose Enterprise Capex</a>
+          </div>
+
+          <div class="model-card glass-panel">
+            <div class="model-top">
+              <span class="model-type">Dedicated Hubs</span>
+              <h3 class="model-name">Fleet & Logistics Depot</h3>
+              <p class="model-summary">Specialized high-capacity charging infrastructure designed for 2W/3W/4W delivery
+                fleets, corporate cabs, and bus transit terminals.</p>
+            </div>
+            <ul class="model-perks">
+              <li><i data-lucide="check"></i> Dynamic vehicle scheduling & load balance</li>
+              <li><i data-lucide="check"></i> Priority fast charging bays</li>
+              <li><i data-lucide="check"></i> Fleet RFID cards & centralized billing</li>
+              <li><i data-lucide="check"></i> Dedicated NOC support manager</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Choose Fleet Depot</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / SITE SURVEY INQUIRY FORM -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="container">
+        <div class="contact-layout glass-panel">
+          <div class="contact-info-col">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="contact-title">Transform Your Property Into an EV Charging Hub</h2>
+            <p class="contact-desc">
+              Request a complimentary site survey, customized ROI financial model, or hardware proposal. Our EV
+              infrastructure engineering team will respond within 24 hours.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="c-detail-item">
+                <div class="c-detail-icon"><i data-lucide="map-pin"></i></div>
+                <div>
+                  <span class="c-detail-lbl">Headquarters</span>
+                  <p class="c-detail-txt">Freedom Tower, Akashwani, Chhatrapati Sambhajinagar, MH, India</p>
+                </div>
+              </div>
+
+              <div class="c-detail-item">
+                <div class="c-detail-icon"><i data-lucide="mail"></i></div>
+                <div>
+                  <span class="c-detail-lbl">Email Inquiries</span>
+                  <p class="c-detail-txt">
+                    <a href="mailto:sagar@chargebeam.in"
+                      style="color: var(--brand-primary); text-decoration: underline;">
+                      sagar@chargebeam.in
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="c-detail-item">
+                <div class="c-detail-icon" style="background: rgba(37, 211, 102, 0.15); color: #25d366;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="c-detail-lbl">Direct WhatsApp Support</span>
+                  <p class="c-detail-txt">
+                    <a href="https://wa.me/919595701700?text=Hello%20ChargeBeam%2C%20I%20want%20to%20know%20more%20about%20hosting%20an%20EV%20charging%20station."
+                      target="_blank" rel="noopener"
+                      style="color: #25d366; font-weight: 700; text-decoration: underline;">
+                      +91 9595701700 (Chat Now &rarr;)
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="c-detail-item">
+                <div class="c-detail-icon"><i data-lucide="phone-call"></i></div>
+                <div>
+                  <span class="c-detail-lbl">Host Call Line</span>
+                  <p class="c-detail-txt">
+                    <a href="tel:+919595701700" style="color: #fff;">
+                      +91 9595701700 / 24x7 NOC Support
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="c-detail-item">
+                <div class="c-detail-icon" style="background: rgba(225, 48, 108, 0.15); color: #e1306c;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div>
+                  <span class="c-detail-lbl">Official Instagram</span>
+                  <p class="c-detail-txt">
+                    <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank"
+                      rel="noopener" style="color: #e1306c; font-weight: 700; text-decoration: underline;">
+                      @charge.beam &rarr;
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-col">
+            <form class="station-inquiry-form" id="stationInquiryForm"
+              action="https://formsubmit.co/sagar@chargebeam.in" method="POST">
+              <!-- FormSubmit Configuration -->
+              <input type="hidden" name="_subject" value="[ChargeBeam] New Station Host Feasibility Request">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+
+              <h3 class="form-title">Request Free Site Survey & Proposal</h3>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input type="text" id="fullName" name="Full_Name" class="form-input" placeholder="e.g. Rahul Sharma"
+                    required>
+                </div>
+                <div class="form-group">
+                  <label for="phoneNum">Phone Number (WhatsApp) *</label>
+                  <input type="tel" id="phoneNum" name="Phone_WhatsApp" class="form-input" placeholder="+91 98765 43210"
+                    required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddr">Business / Personal Email *</label>
+                <input type="email" id="emailAddr" name="Applicant_Email" class="form-input"
+                  placeholder="rahul@domain.com" required>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="propertyType">Property Type *</label>
+                  <select id="propertyType" name="Property_Type" class="form-input" required>
+                    <option value="">Select property type...</option>
+                    <option value="Shopping Mall / Retail Center">Shopping Mall / Retail Center</option>
+                    <option value="Office / IT Tech Park">Office / IT Tech Park</option>
+                    <option value="Highway Restaurant / Fuel Station">Highway Restaurant / Fuel Station</option>
+                    <option value="Hotel / Resort / Hospitality">Hotel / Resort / Hospitality</option>
+                    <option value="Residential Society / Apartment">Residential Society / Apartment</option>
+                    <option value="Fleet Depot / Logistics Hub">Fleet Depot / Logistics Hub</option>
+                    <option value="Commercial Vacant Plot">Commercial Vacant Plot</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="cityLocation">City / State *</label>
+                  <input type="text" id="cityLocation" name="City_Location" class="form-input"
+                    placeholder="e.g. Mumbai, Maharashtra" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="notesMessage">Additional Details / Parking Capacity</label>
+                <textarea id="notesMessage" name="Project_Notes" rows="3" class="form-input"
+                  placeholder="Tell us about available parking bays, existing power transformer capacity, etc."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitInquiryBtn">
+                <i data-lucide="send"></i> Submit Feasibility Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="brand-logo">
+            <img src="assets/images/logo.png" alt="ChargeBeam EV Charging Solutions"
+              class="brand-logo-img footer-logo-img">
+          </div>
+          <p class="footer-tagline">
+            Building India's most dependable, lightning-fast, and universally accessible clean mobility charging
+            network.
+          </p>
+          <div class="footer-certifications">
+            <span class="cert-pill"><i data-lucide="check-circle-2"></i> OCPP 1.6J Certified</span>
+            <span class="cert-pill"><i data-lucide="shield-check"></i> IP65 Weatherproof</span>
+          </div>
+          <div class="footer-social-icons">
+            <a href="https://wa.me/919595701700?text=Hello%20ChargeBeam%2C%20I%20want%20to%20know%20more%20about%20hosting%20an%20EV%20charging%20station."
+              target="_blank" rel="noopener" class="footer-social-btn whatsapp"
+              aria-label="WhatsApp ChargeBeam (9595701700)" title="WhatsApp (+91 9595701700)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+              class="footer-social-btn instagram" aria-label="ChargeBeam Instagram" title="Instagram @charge.beam">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://maps.google.com/?q=Freedom+Tower,Akashwani,Chhatrapati+Sambhajinagar" target="_blank"
+              rel="noopener" class="footer-social-btn" aria-label="ChargeBeam Google Maps Location"
+              title="Location on Google Maps">
+              <i data-lucide="map-pin"></i>
+            </a>
+            <a href="mailto:sagar@chargebeam.in" class="footer-social-btn" aria-label="Email Sagar at ChargeBeam"
+              title="Email sagar@chargebeam.in">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#solutions">Core Pillars</a></li>
+            <li><a href="#ecosystem">Smart Ecosystem</a></li>
+            <li><a href="#simulator">Charging Simulator</a></li>
+            <li><a href="#cms-preview">Cloud CMS Dashboard</a></li>
+            <li><a href="#gallery">Live Station Gallery</a></li>
+            <li><a href="#calculator">Host Revenue Calculator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Solutions</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hardware">60kW/120kW DC Fast</a></li>
+            <li><a href="#hardware">7.4kW/22kW AC Smart</a></li>
+            <li><a href="#models">Revenue Share Hosting</a></li>
+            <li><a href="#models">Enterprise Capex Hubs</a></li>
+            <li><a href="#models">Commercial Fleet Depots</a></li>
+            <li><a href="#roadmap">Turnkey Roadmap</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Connect & Social</h4>
+          <ul class="footer-nav-list">
+            <li><a
+                href="https://wa.me/919595701700?text=Hello%20ChargeBeam%2C%20I%20want%20to%20know%20more%20about%20hosting%20an%20EV%20charging%20station."
+                target="_blank" rel="noopener" style="color: #25d366; font-weight: 600;"><svg width="15" height="15"
+                  viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 4px;">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                </svg> WhatsApp (+91 9595701700)</a></li>
+            <li><a href="https://www.instagram.com/charge.beam?stkn=MTFwdHFyZDZnOXFwZA==" target="_blank" rel="noopener"
+                style="color: #e1306c; font-weight: 600;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px;">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg> Follow @charge.beam</a></li>
+            <li><a href="https://maps.google.com/?q=Freedom+Tower,Akashwani,Chhatrapati+Sambhajinagar" target="_blank"
+                rel="noopener"><i data-lucide="map-pin"></i> Open in Google Maps</a></li>
+            <li><a href="#contact">Site Survey Booking</a></li>
+            <li><a href="#contact">24x7 NOC Technical AMC</a></li>
+            <li><a href="#contact">Privacy Policy & Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          &copy; 2026 ChargeBeam EV Charging Solutions. All rights reserved. Universal Smart EV Charging Platform.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Back to Top <i data-lucide="arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP CHAT BUTTON AT BOTTOM LEFT (Direct Mobile WhatsApp Link) -->
+  <a href="https://wa.me/919595701700?text=Hello%20Sagar%2C%20I%20want%20to%20know%20more%20about%20hosting%20a%20ChargeBeam%20EV%20charging%20station."
+    target="_blank" rel="noopener" class="floating-whatsapp-btn" id="floatingWhatsappBtn"
+    aria-label="Chat on WhatsApp (+91 9595701700)" title="Chat on WhatsApp (+91 9595701700)">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg>
+    <span class="floating-whatsapp-tooltip">Chat with Sagar (+91 9595701700)</span>
+  </a>
+
+
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toastNotice">
+    <div class="toast-icon-box" id="toastIcon"><i data-lucide="check"></i></div>
+    <div class="toast-body">
+      <h5 class="toast-title" id="toastTitle">Success</h5>
+      <p class="toast-msg" id="toastMsg">Your request has been submitted successfully.</p>
+    </div>
+  </div>
+
+  <!-- INVOICE MODAL (Triggered in Simulator Step 6 or via Button) -->
+  <div class="modal-backdrop" id="invoiceModal">
+    <div class="modal-card glass-panel">
+      <button class="modal-close-btn" id="closeInvoiceModal"><i data-lucide="x"></i></button>
+
+      <div class="invoice-header">
+        <div class="invoice-logo">
+          <i data-lucide="zap" class="text-cyan"></i>
+          <span>CHARGEBEAM TAX INVOICE</span>
+        </div>
+        <span class="invoice-badge-paid"><i data-lucide="check-circle-2"></i> PAID VIA UPI</span>
+      </div>
+
+      <div class="invoice-meta-grid">
+        <div>
+          <span class="inv-lbl">Station Bay</span>
+          <span class="inv-val">Bay 01 - DC Fast 60kW</span>
+        </div>
+        <div>
+          <span class="inv-lbl">Date & Time</span>
+          <span class="inv-val" id="invDateTime">17 Sep 2026, 01:45 AM</span>
+        </div>
+        <div>
+          <span class="inv-lbl">Transaction Ref</span>
+          <span class="inv-val" id="invTxnRef">CB-TXN-8849201</span>
+        </div>
+        <div>
+          <span class="inv-lbl">Vehicle Inlet</span>
+          <span class="inv-val">CCS-2 Fast DC</span>
+        </div>
+      </div>
+
+      <div class="invoice-table">
+        <div class="inv-row inv-table-header">
+          <span>Item Description</span>
+          <span>Qty</span>
+          <span>Rate</span>
+          <span class="text-right">Total</span>
+        </div>
+        <div class="inv-row">
+          <span>Electric Energy Delivered</span>
+          <span>28.4 kWh</span>
+          <span>₹18.00/kWh</span>
+          <span class="text-right">₹511.20</span>
+        </div>
+        <div class="inv-row">
+          <span>Green Network Access & CGST/SGST (18%)</span>
+          <span>1 Unit</span>
+          <span>₹92.00</span>
+          <span class="text-right">₹92.00</span>
+        </div>
+        <div class="inv-divider"></div>
+        <div class="inv-row inv-total-row">
+          <span>Total Amount Paid</span>
+          <span></span>
+          <span></span>
+          <span class="text-right text-cyan font-bold">₹603.20</span>
+        </div>
+      </div>
+
+      <div class="invoice-actions">
+        <button class="btn btn-primary btn-sm btn-block" id="btnDownloadInvoice">
+          <i data-lucide="download"></i> Download PDF Receipt
+        </button>
+        <button class="btn btn-secondary btn-sm btn-block" id="btnSendWhatsapp">
+          <i data-lucide="message-circle"></i> Send to WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BROCHURE FULL-SIZE LIGHTBOX MODAL -->
+  <div class="modal-backdrop" id="brochureModal">
+    <div class="modal-card glass-panel brochure-modal-card">
+      <button class="modal-close-btn" id="closeBrochureModal"><i data-lucide="x"></i></button>
+      <div class="brochure-modal-header">
+        <div class="brochure-modal-title">
+          <i data-lucide="file-text" class="text-cyan"></i>
+          <span>ChargeBeam Complete EV Charger Range (AC 1.1kW to DC 960kW)</span>
+        </div>
+        <div class="brochure-modal-header-actions">
+          <a href="assets/images/chargebeam_product_range.jpg" download="ChargeBeam_Product_Portfolio.jpg"
+            class="btn btn-primary btn-sm">
+            <i data-lucide="download"></i> Download Full Poster
+          </a>
+        </div>
+      </div>
+      <div class="brochure-modal-body">
+        <img src="assets/images/chargebeam_product_range.jpg" alt="ChargeBeam Complete Product Range Catalog"
+          class="brochure-full-modal-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
